@@ -1,0 +1,166 @@
+
+page{
+		background: #F6F6F6;
+}
+.auth-wapper{
+		padding: 20rpx 20rpx 30rpx 20rpx;
+		/* background-color: #37c4bb */
+}
+.auth-wapper .auth-inner {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		/* padding: 155rpx 18rpx 18rpx 18rpx; */
+}
+.auth-wapper .auth-inner .auth-blok {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.auth-wapper .auth-inner .auth-blok view {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.auth-wapper .auth-inner .auth-blok .auth-title {
+		/* color: #fff; */
+		font-size: 1.7em;
+		letter-spacing: 3rpx;
+		font-weight: bold;
+}
+.auth-wapper .auth-inner .auth-blok .auth-subtitle {
+		/* color: #fff; */
+		font-size: 0.8em;
+		letter-spacing: 2rpx;
+}
+	/* .auth-layout {
+		margin: 10px 5px;
+	}
+
+	.auth-layout .auth-content {
+		padding: 10px;
+	}
+
+	.auth-layout .auth-content .block-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+	}
+
+	.auth-layout .auth-content .block-item image {
+		width: 35px;
+		height: 35px;
+	}
+
+	.auth-layout .auth-content .block-item .block-title {
+		font-size: 0.9em;
+		color: black;
+	}
+ */
+	/* ******************完善简历 start **********************/
+.perfect_resume{
+		margin: 20rpx;
+		background-image: -webkit-gradient(linear,left top, right top,from(#fb576b),to(#ffb077));
+		background-image: -webkit-linear-gradient(left,#fb576b,#ffb077);
+		background-image: linear-gradient(to right,#fb576b,#ffb077);
+		border-radius: 10rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		padding: 20rpx;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.perfect_text{
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.perfect_text>view:nth-child(1){color: white;font-weight: bold;font-size: 1.3em;padding: 5rpx;}
+.perfect_text>view:nth-child(2){color: #ffdde1;font-size: 0.9em;}
+.perfect_btn{
+		color: #FF8247;
+}
+.perfect_btn>button{color: #FF8247;}
+	/* ******************完善简历 end **********************/
+	/* ******************报名list start **********************/
+.enroll_list{
+		margin: 20rpx;
+		background-color: white;
+		border-radius: 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		padding: 40rpx 20rpx;
+}
+.enroll_list>view{
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		/* height: 60rpx; */
+}
+.enroll_list>view:nth-child(1),
+	.enroll_list>view:nth-child(2),
+	.enroll_list>view:nth-child(3){border-right: 1px solid #EEEEEE;}
+.enroll_list>view>view:nth-child(1){color: #252525;font-size: 1.3em;font-weight: bolder;padding: 10rpx;}
+.enroll_list>view>view:nth-child(2){color: #999999;font-size: 0.9em;}
+	/* ******************报名list end **********************/
+	/* ******************菜单列表 start **********************/
+.cu-list{
+		margin: 20rpx;
+		border-radius: 20rpx;
+}
+	/* ******************菜单列表 end **********************/
+.cuIcon-weixin {
+		font-size: large;
+		margin: 5px;
+}
+

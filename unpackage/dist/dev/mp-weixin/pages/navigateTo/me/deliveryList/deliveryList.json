@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "报名单列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "speed-card": "/components/naraku-ui/speed-card"
+  }
+}

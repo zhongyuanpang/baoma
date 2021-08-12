@@ -1,0 +1,6 @@
+
+.btn-wapper {
+	border: 1px solid #FF4A6A;
+	border-radius: 17rpx;
+}
+

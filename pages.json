@@ -1,0 +1,228 @@
+{
+	"pages": [
+	{
+		"path" : "pages/tabbar/more/more",
+		"style" : {
+			"navigationBarTitleText": "全部兼职",
+			"enablePullDownRefresh": false
+		}
+	},
+	{
+	    "path" : "pages/comun/comun/comun",
+	    "style" : {
+			"app-plus":{
+				"titleNView":{
+					"buttons":[{
+						"type":"menu",
+						"float":"right"
+					}]
+				}
+			}
+		}                                                                                   
+	},
+		{
+		    "path" : "pages/tabbar/comun/comun",
+		    "style" :                                                                                    
+		    {
+			   // "enablePullDownRefresh":true,
+		       "navigationStyle":"custom"
+				// "navigationStyle":"custom"
+		    }
+		    
+		},
+		
+		{
+			"path" : "pages/navigateTo/me/deliveryList/deliveryList",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "报名单列表",
+				"enablePullDownRefresh": false
+			}
+			
+		},
+		 {
+			"path": "pages/navigateTo/index/position/position",
+			"style": {
+					"navigationBarTitleText": "定位",
+					"enablePullDownRefresh": false
+			}
+
+		},
+		{
+		    "path" : "pages/comun/comun-user/comun-user",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle":"custom"
+		    }
+		    
+		},
+		
+		
+		
+		{
+		    "path" : "pages/comun/comun-detail/comun-detail",
+		    "style" :                                                                                    
+		    {
+		       "navigationStyle":"custom"
+		    }
+		    
+		},
+		
+		
+
+	
+		{
+		    "path" : "pages/comun/comun-add/comun-add",
+			"style" : {
+				"app-plus":{
+					"titleNView":false
+				},
+				"navigationStyle":"custom"
+			}
+		    
+		},
+	
+		
+		
+		{
+			"path" : "pages/tabbar/me/me",
+			"style" : {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#F6F6F6"
+			}
+		},
+		{
+		    "path" : "pages/navigateTo/index/applyFinish/applyFinish",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		
+		
+		{
+		    "path" : "pages/search/search"
+			
+				
+		},
+		
+		{
+			"path": "pages/tabbar/index/index",
+			
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},	
+		
+
+		{
+			"path" : "pages/navigateTo/index/details/details",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "兼职详情",
+				"enablePullDownRefresh": false
+			}
+			
+		},{
+			"path" : "pages/navigateTo/me/userInfo/userInfo",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+			
+		},{
+            "path" : "pages/navigateTo/me/setUserInfo/setUserInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/navigateTo/me/collection/collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+				"path": "pages/navigateTo/me/resume/resume",
+				"style": {
+						"navigationBarTitleText": "完善简历",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+				}
+
+		},
+		{
+			"path" : "pages/navigateTo/index/BusinessInformation/BusinessInformation",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "商家信息",
+				"enablePullDownRefresh": false
+			}
+			
+		}, {
+				"path": "pages/navigateTo/me/feedback/feedback",
+				"style": {
+						"navigationBarTitleText": "意见反馈",
+						"enablePullDownRefresh": false
+				}
+
+		}, {
+				"path": "pages/navigateTo/me/setting/setting",
+				"style": {
+						"navigationBarTitleText": "设置",
+						"enablePullDownRefresh": false
+				}
+
+		}
+       
+        
+       
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle":"black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#ccc"
+	},
+	"tabBar":{
+		"color":"#707070",
+		"selectedColor":"#707070",
+		"borderStyle":"black",
+		"backgroundColor":"#F7F7F7",
+		"list":[
+			{
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/_home.png",
+				"pagePath":"pages/tabbar/index/index",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/tabbar/lorem.png",
+				"selectedIconPath":"static/tabbar/_lorem.png",
+				"pagePath":"pages/tabbar/more/more",
+				"text":"热招"
+			},
+			{
+				"iconPath":"static/tabbar/coum.png",
+				"selectedIconPath":"static/tabbar/_coum.png",
+				"pagePath":"pages/tabbar/comun/comun",
+				"text":"广场"
+			},
+			{
+				"iconPath":"static/tabbar/me.png",
+				"selectedIconPath":"static/tabbar/_me.png",
+				"pagePath":"pages/tabbar/me/me",
+				"text":"我的"
+			}
+		]
+	},
+	"usingComponents": {
+		"cu-custom": "/colorui/components/cu-custom"
+	}
+}

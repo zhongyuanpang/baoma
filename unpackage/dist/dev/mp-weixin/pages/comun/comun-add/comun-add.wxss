@@ -1,0 +1,21 @@
+
+.footer-btn{
+	width: 86rpx;
+	height: 86rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-content: center;
+	        align-content: center;
+	font-size: 50rpx;
+}
+.send-btn{
+	background-image: -webkit-gradient(linear,left top, right top,from(#FF748C),to(#FF8BB1));
+	background-image: -webkit-linear-gradient(left,#FF748C,#FF8BB1);
+	background-image: linear-gradient(to right,#FF748C,#FF8BB1);
+	border-radius: 10rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="holdon" style="border:1rpx solid red;"><image class="ball" style="{{('left:'+(moveX==0&x>0?x+'%':moveX+'px')+';top:'+(moveY==0&y>0?y+'%':moveY+'px'))}}" src="{{image}}" mode="aspectFit" data-event-opts="{{[['touchstart',[['drag_start',['$event']]]],['touchmove',[['drag_hmove',['$event']]]]]}}" bindtouchstart="__e" bindtouchmove="__e"></image></view>

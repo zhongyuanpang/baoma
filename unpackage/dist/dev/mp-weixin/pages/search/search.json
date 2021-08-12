@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "naraku-item": "/components/naraku-ui/naraku-item",
+    "no-thing": "/components/common/no-thing"
+  }
+}

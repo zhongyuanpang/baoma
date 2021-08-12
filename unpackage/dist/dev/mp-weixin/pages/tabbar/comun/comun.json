@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "naraku-comun-item": "/components/naraku-ui/naraku-comun-item",
+    "naraku-fab": "/components/naraku-ui/naraku-fab",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
+  }
+}

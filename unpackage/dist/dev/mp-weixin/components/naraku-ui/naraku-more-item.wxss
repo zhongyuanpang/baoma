@@ -1,0 +1,13 @@
+.card-tag {
+  display: inline-block;
+  padding: 5rpx 25rpx;
+  margin: 1rpx;
+  margin-left: 10rpx;
+  background-color: #FFF2E4;
+  border-radius: 0.2rem;
+}
+.card-tag text {
+  color: #DB9654;
+  font-size: 0.8em;
+}
+

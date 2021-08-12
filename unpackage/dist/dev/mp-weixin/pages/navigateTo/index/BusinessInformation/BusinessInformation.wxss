@@ -1,0 +1,146 @@
+page {
+  background-color: white;
+}
+.hr {
+  border-bottom: 1px solid #EEEEEE;
+  margin: 50rpx 0rpx;
+}
+.y_line {
+  border: 6rpx solid #FF5370;
+  background-color: #FF5370;
+  border-radius: 50rpx;
+  margin-right: 20rpx;
+}
+.businessInformation {
+  padding: 30rpx;
+}
+.businessInformation .companyDetails {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.businessInformation .companyDetails .works_info {
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.businessInformation .companyDetails .works_info > view:nth-child(1) {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 5rpx;
+}
+.businessInformation .companyDetails .works_info > view:nth-child(2) {
+  font-size: 0.9em;
+  color: #999999;
+  padding: 5rpx;
+}
+.businessInformation .recruitingPositions .post_list {
+  margin-top: 30rpx;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 15rpx;
+}
+.businessInformation .recruitingPositions .post_list .post_list_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.businessInformation .recruitingPositions .post_list .post_list_title > view:nth-child(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.businessInformation .recruitingPositions .post_list .post_list_title > view:nth-child(2) {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #FF5F5F;
+}
+.businessInformation .recruitingPositions .post_list .post_list_info {
+  margin-top: 15rpx;
+  color: #999999;
+  font-size: 0.9em;
+}
+.businessInformation .recruitingPositions .post_list .post_list_tag {
+  margin: 20rpx 0rpx;
+}
+.businessInformation .recruitingPositions .post_list .post_list_tag .tags {
+  padding: 10rpx;
+  background-color: #FFF2E4;
+  margin-right: 10rpx;
+  color: #DB9654;
+  border-radius: 10rpx;
+  font-size: 0.8em;
+}
+.segmentation {
+  height: 20rpx;
+  background-color: #F6F6F6;
+}
+.Evaluation {
+  padding: 30rpx;
+}
+.Evaluation .comment {
+  margin: 40rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #EEEEEE;
+}
+.Evaluation .comment .comment_info {
+  padding: 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.Evaluation .comment .comment_info .comment_user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10rpx;
+  color: #666666;
+  font-size: 0.9em;
+}
+.Evaluation .comment .comment_info .comment_user > view:nth-child(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.Evaluation .comment .comment_info .comment_content {
+  margin: 10rpx 0rpx;
+}
+.Evaluation .comment .comment_info .comment_time {
+  margin: 20rpx 0rpx;
+}
+.no_comment {
+  text-align: center;
+  color: #999999;
+  font-size: 0.9em;
+}
+

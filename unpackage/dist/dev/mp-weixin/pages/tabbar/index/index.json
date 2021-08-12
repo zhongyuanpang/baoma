@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "naraku-item": "/components/naraku-ui/naraku-item",
+    "naraku-search-bar": "/components/naraku-ui/naraku-search-bar",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
+  }
+}

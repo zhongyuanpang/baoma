@@ -1,0 +1,16 @@
+
+.fab-btn{
+	position: fixed;
+	bottom: 70rpx;right: 20rpx;
+}
+.user-inner{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: left;
+}
+.comun-wapper{
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+}
+

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "naraku-comun-item": "/components/naraku-ui/naraku-comun-item",
+    "bottom-input": "/components/naraku-ui/bottom-input",
+    "comment-list-item": "/components/naraku-ui/comment_list_item",
+    "not-thing": "/components/common/no-thing",
+    "load-more": "/components/common/load-more"
+  }
+}

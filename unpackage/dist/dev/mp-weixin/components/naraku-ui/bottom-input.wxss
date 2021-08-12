@@ -1,0 +1,8 @@
+
+.sendBtn{
+	background-image: -webkit-gradient(linear,left top, right top,from(#fb576b),to(#FF8BB1));
+	background-image: -webkit-linear-gradient(left,#fb576b,#FF8BB1);
+	background-image: linear-gradient(to right,#fb576b,#FF8BB1);
+	padding: 20rpx 40rpx;
+}
+

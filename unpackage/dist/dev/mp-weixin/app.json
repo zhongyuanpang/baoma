@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/tabbar/more/more",
+    "pages/comun/comun/comun",
+    "pages/tabbar/comun/comun",
+    "pages/navigateTo/me/deliveryList/deliveryList",
+    "pages/navigateTo/index/position/position",
+    "pages/comun/comun-user/comun-user",
+    "pages/comun/comun-detail/comun-detail",
+    "pages/comun/comun-add/comun-add",
+    "pages/tabbar/me/me",
+    "pages/navigateTo/index/applyFinish/applyFinish",
+    "pages/search/search",
+    "pages/tabbar/index/index",
+    "pages/navigateTo/index/details/details",
+    "pages/navigateTo/me/userInfo/userInfo",
+    "pages/navigateTo/me/setUserInfo/setUserInfo",
+    "pages/navigateTo/me/collection/collection",
+    "pages/navigateTo/me/resume/resume",
+    "pages/navigateTo/index/BusinessInformation/BusinessInformation",
+    "pages/navigateTo/me/feedback/feedback",
+    "pages/navigateTo/me/setting/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#ccc"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#707070",
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "list": [
+      {
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/_home.png",
+        "pagePath": "pages/tabbar/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/lorem.png",
+        "selectedIconPath": "static/tabbar/_lorem.png",
+        "pagePath": "pages/tabbar/more/more",
+        "text": "热招"
+      },
+      {
+        "iconPath": "static/tabbar/coum.png",
+        "selectedIconPath": "static/tabbar/_coum.png",
+        "pagePath": "pages/tabbar/comun/comun",
+        "text": "广场"
+      },
+      {
+        "iconPath": "static/tabbar/me.png",
+        "selectedIconPath": "static/tabbar/_me.png",
+        "pagePath": "pages/tabbar/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位测试"
+    }
+  },
+  "usingComponents": {
+    "divider": "/components/naraku-ui/divider",
+    "no-thing": "/components/naraku-ui/naraku-on-thing"
+  }
+}

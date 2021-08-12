@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "upload-image": "/components/common/upload-image",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar"
+  }
+}

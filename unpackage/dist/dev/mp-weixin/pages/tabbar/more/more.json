@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "全部兼职",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "naraku-search-bar": "/components/naraku-ui/naraku-search-bar",
+    "naraku-more-item": "/components/naraku-ui/naraku-more-item",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
+  }
+}

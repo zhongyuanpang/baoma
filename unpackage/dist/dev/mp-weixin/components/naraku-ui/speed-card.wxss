@@ -1,0 +1,30 @@
+
+.callBtn{
+	padding: 13rpx 30rpx;
+	background-image: -webkit-gradient(linear,left top, right top,from(#fb576b),to(#FF8BB1));
+	background-image: -webkit-linear-gradient(left,#fb576b,#FF8BB1);
+	background-image: linear-gradient(to right,#fb576b,#FF8BB1);
+	border-radius: 10rpx;
+}
+.comunBtn{
+	padding: 8rpx 35rpx;
+	border: 1rpx solid #fb576b;
+	border-radius: 10rpx;
+}
+.registedTab,.conductTab,.finishTab{
+	margin: 10rpx 10rpx 10rpx 0;
+	padding: 15rpx 30rpx;
+}
+.registedTab{
+	background-color: #FFF2E4;
+	color: #DB9654;
+}
+.conductTab{
+	background-color: #FFE3E8;
+	color: #E1667B;
+}
+.finishTab{
+	background-color: #E3FFEE;
+	color: #4ED685;
+}
+

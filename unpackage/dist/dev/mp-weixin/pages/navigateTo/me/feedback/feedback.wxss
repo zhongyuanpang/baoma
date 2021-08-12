@@ -1,0 +1,173 @@
+.suggest {
+  padding: 10rpx 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #999999;
+}
+.edit-suggest {
+  padding: 10rpx 30rpx;
+}
+.edit-suggest > textarea {
+  background-color: white;
+  width: 100%;
+  border-radius: 20rpx;
+  padding: 20rpx 0rpx 0rpx 20rpx;
+  height: 400rpx;
+}
+.upload-image {
+  padding: 0rpx 30rpx;
+  /* 第一套图片上传样式（内部图标相机） */
+  /* 十字架 */
+}
+.upload-image .upload-image-view {
+  border-radius: 20rpx;
+  padding: 20rpx 30rpx;
+  width: 100%;
+  margin: 20rpx 0 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: white;
+}
+.upload-image .upload-image-view .title {
+  width: 100%;
+  font-family: PingFang-SC-Regular;
+  font-size: 24rpx;
+  color: #4a4a4a;
+  margin-bottom: 15rpx;
+  line-height: 100%;
+}
+.upload-image .upload-image-view .info {
+  width: 100%;
+  font-family: PingFang-SC-Regular;
+  font-size: 24rpx;
+  color: #ff4259;
+  height: 24rpx;
+  margin-top: 15rpx;
+  line-height: 24rpx;
+}
+.upload-image .upload-image-view .image-view {
+  height: 130rpx;
+  width: 130rpx;
+  position: relative;
+  margin: 15rpx 15rpx 15rpx 0rpx;
+  border-radius: 8rpx;
+}
+.upload-image .upload-image-view .image-view image {
+  height: 100%;
+  width: 100%;
+  border-radius: 8rpx;
+}
+.upload-image .upload-image-view .image-view .del-btn {
+  background-color: #f67371;
+  border-radius: 50%;
+  width: 25rpx;
+  height: 25rpx;
+  position: absolute;
+  top: -12rpx;
+  right: -12rpx;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.upload-image .upload-image-view .image-view .del-btn .baicha {
+  display: inline-block;
+  width: 20rpx;
+  height: 5rpx;
+  background: #fff;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  -webkit-transform: rotate(45deg);
+}
+.upload-image .upload-image-view .image-view .del-btn .baicha:after {
+  content: '/';
+  display: block;
+  width: 20rpx;
+  height: 5rpx;
+  background: #fff;
+  -webkit-transform: rotate(-90deg);
+}
+.upload-image .upload-image-view .add-view {
+  height: 115rpx;
+  width: 115rpx;
+  margin: 15rpx 15rpx 15rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0);
+  border: 3rpx dashed #979797;
+  border-radius: 8rpx;
+}
+.upload-image .upload-image-view .add-view .cross {
+  height: 48rpx;
+  width: 48rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  position: relative;
+}
+.upload-image .upload-image-view .add-view .cross .transverse-line {
+  height: 100%;
+  width: 48%;
+  position: absolute;
+  border-right: 3rpx solid #5A5A5A;
+  top: 0;
+  left: 0;
+}
+.upload-image .upload-image-view .add-view .cross .vertical-line {
+  height: 48%;
+  width: 100%;
+  position: absolute;
+  border-bottom: 3rpx solid #5A5A5A;
+  top: 0;
+  left: 0;
+}
+.connect {
+  padding: 0rpx 30rpx;
+  height: 100rpx;
+}
+.connect > input {
+  height: 100rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.submit-btn {
+  padding: 50rpx 30rpx 0rpx 30rpx;
+}
+.submit-btn > button {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF748C), to(#FF8BB1));
+  background-image: -webkit-linear-gradient(left, #FF748C, #FF8BB1);
+  background-image: linear-gradient(to right, #FF748C, #FF8BB1);
+  border-radius: 50rpx;
+}
+

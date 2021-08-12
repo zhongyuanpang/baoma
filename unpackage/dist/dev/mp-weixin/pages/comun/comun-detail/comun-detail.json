@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar",
+    "commun-follow-item": "/components/naraku-ui/comun-follow-item"
+  }
+}

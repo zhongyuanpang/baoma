@@ -1,0 +1,35 @@
+.auth-layout {
+  border-radius: 5rpx;
+}
+.auth-layout .card-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.auth-layout .card-money {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #FF5F5F;
+}
+.auth-layout .card-content .card-subtitle {
+  text-indent: 5rpx;
+  font-size: 0.9em;
+}
+.auth-layout .card-content .card-tag {
+  display: inline-block;
+  padding: 5rpx 10rpx;
+  margin: 1rpx  3rpx;
+  background-color: #FFF2E4;
+  border-radius: 0.2rem;
+}
+.auth-layout .card-content .card-tag text {
+  color: #DB9654;
+  font-size: 0.8em;
+}
+.auth-layout .card-content .card-detail text {
+  display: inline-block;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

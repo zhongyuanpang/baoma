@@ -1,0 +1,57 @@
+
+page{background-color: #fff}
+.detail{}
+.detailBox{margin:20rpx 30rpx;}
+/* 职位详情 */
+.detail_title{height: 80rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.detail_title>view:nth-child(1){font-size: 1.5em;font-weight: bolder;}
+.detail_money{color:#FF9A34;font-size: 1.2em;font-weight: bold;}
+.detail_tag{height: 60rpx;margin: 10rpx 0rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.detail_tag>text{background-color: #FFF2E4;color: #DB9654;padding:8rpx 20rpx; margin-right:10rpx;border-radius: 10rpx;font-size: 0.9em;}
+/* 公司招聘详情 */
+.company_info{font-size: 0.9em;letter-spacing: 3rpx;font-weight: 500;border-bottom: 3rpx solid #eaeaea;padding: 10rpx 0rpx 50rpx 0rpx;}
+.company_info>text{margin-right: 20rpx;color: #999999;}
+/* 横线 */
+.hr{border-bottom: 3rpx solid #eaeaea;margin-top: 50rpx;}
+/* 职位详情 */
+.position_details{margin-top: 30rpx;}
+.describe{margin-top: 30rpx;font-size: 0.9em;color: #545454;}
+.desc_info{margin-top: 10rpx;letter-spacing: 3rpx;font-size: 0.9em;color: #666666;}
+.y_line{border: 6rpx solid #FF5370;background-color: #FF5370;border-radius: 50rpx; margin-right: 20rpx;}
+.registered{margin: 30rpx 0rpx;}
+.registered_number{color: #999999;}
+.registered_user{}
+.registered_user_avatar{margin: 10rpx 10rpx 10rpx 0rpx;}
+/* 商家信息 */
+.Business_information{margin: 50rpx 0rpx;}
+/* 该公司 */
+.the_company{margin: 40rpx 0rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.the_company>view:nth-child(1){-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.the_company>view:nth-child(1)>.company_avatar{}
+.the_company>view:nth-child(1)>.the_company_info{margin-left: 20rpx;}
+.the_company>view:nth-child(1)>.the_company_info>view:nth-child(1){font-size: 1em;font-weight: 500;padding: 5rpx;font-weight: Medium;color: #000000;}
+.the_company>view:nth-child(1)>.the_company_info>view:nth-child(2){font-size: 0.8em;padding: 5rpx;color: #999999;}
+.the_company>view:nth-child(2){font-size: 0.9em;color:#999999 ;}
+/* map */
+.map{margin-bottom: 50rpx;border-radius: 10rpx;}
+/* 公司其他职位 */
+.other_positions{margin-top: 50rpx;}
+.other_positions_list{margin-top: 30rpx; border-bottom: 2px solid #EEEEEE; padding: 15rpx;}
+.positions_list_title{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.positions_list_title>view:nth-child(1){-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;font-size: 1.1em;font-weight: bold;}
+.positions_list_title>view:nth-child(2){font-size: 0.9em;font-weight: 600;color: #FF5F5F;}
+.positions_list_info{margin-top: 10rpx;color: #999999;font-size: 0.9em;}
+.positions_list_tag{margin: 20rpx 0rpx;}
+.tags{padding: 10rpx;background-color: #FFF2E4;margin-right: 10rpx;font-size: 0.8em;color: #DB9654;border-radius: 10rpx;}
+/* 最底部 */
+.btom{height: 130rpx;background-color: white;position: fixed;bottom: 0;width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.btom>view:nth-child(1){display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;flex-direction: row;}
+.btom>view:nth-child(1)>view{-webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;align-items: center;text-align: center;padding:0rpx 20rpx;}
+.share{margin-left: 10rpx;}
+.share>view:nth-child(1){font-size: 1.4em;color: #999999;font-weight: 500;}
+.share>view:nth-child(2){color: #999999;font-size: 0.9em;}
+.collection>view:nth-child(1){font-size: 1.4em;color: #999999;font-weight: 500;}
+.collection>view:nth-child(2){color: #999999;font-size: 0.9em;}
+.btn{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;padding: 20rpx;}
+.btn>button{background: -webkit-gradient(linear,left top, right top,from(#FF748C),to(#FF8BB1));background: -webkit-linear-gradient(left,#FF748C,#FF8BB1);background: linear-gradient(to right,#FF748C,#FF8BB1); color: white;border-radius: 22rpx;}
+
